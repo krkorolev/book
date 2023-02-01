@@ -5,42 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Книги</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="navigation">
-        <a>
-          <img src="#" alt="логотип Secondbook" />
-        </a>
-        <ul class="menu">
-          <li class="menu-item">
-            <a href="#">Главная</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Поддежка</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Блог</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo">
+            <img
+              class="logo-photo"
+              src="/images/logo.svg"
+              alt="логотип Secondbook"
+            />
+            <img
+              class="logo-text"
+              src="/images/secondbook.svg"
+              alt="логотип Secondbook"
+            />
+          </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Поддежка</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Блог</a>
+            </li>
+            <li class="menu-item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+  
     <main class="main">
+      <div class="container">
       <section class="promo">
         <h1>Передай книгу. Измени мир.</h1>
         <p>
-          Думаете, куда можно отдать старые книги? Вы можете передать их в
+          Думаете, куда можно отдать старые книги? <br>Вы можете передать их в
           благотворительный фонд.
         </p>
-        <div>
-          <a href="#">Передать книгу</a>
-          <a href="#">Подробнее</a>
+        <div class="promo-footer">
+          <a class="promo-footer_buttom" href="#">Передать книгу</a><br>
+          <a class="promo-footer_link" href="#">Подробнее</a>
+          <a class="promo-footer_arrow"> <img src="/images/arrow-down.svg"> </a>
         </div>
+        <!-- <img class="materics-photo" src="/images/materics.png"> -->
       </section>
-      <section class="about">
+      <!-- <section class="about">
         <div>
           <h3>Спасём деревья</h3>
           <p>
@@ -64,8 +88,8 @@
             Better World Books.
           </p>
         </div>
-      </section>
-      <section>
+      </section> -->
+      <!-- <section>
         <h2>Как это работает?</h2>
         <p>Вы отдаёте 1 коробку книг = мы сажаем 10 деревьев</p>
         <p>Вы отдаёте 1 коробку книг = мы финансируем образовательный проект</p>
@@ -75,8 +99,8 @@
           10кг.
         </p>
         <a href="#">Передать книги</a>
-      </section>
-      <section>
+      </section> -->
+      <!-- <section>
         <div class="mission">
           <h2>Наша миссия на 2023 год</h2>
           <p>
@@ -102,8 +126,8 @@
             <li>пожертвовано на поддержку образовательных проектов</li>
           </ul>
         </div>
-      </section>
-      <section class="pertners">
+      </section> -->
+      <!-- <section class="pertners">
         <img src="#" alt="logo-TressFutere" />
         <img src="#" alt="logo-BetterWorldBooks" />
         <img src="#" alt="logo-BooksStore" />
@@ -118,11 +142,12 @@
           транспортной компании.
         </p>
         <a href="#">Оформить отгрузку</a>
-      </section>
+      </section> -->
+    </div>
     </main>
-
-    <footer>
-      <section class="contacts">
+  <!-- 
+    <footer class="footer">
+      <section class="footer-contacts">
         <div class="nunmber-phone">
           <ul>
             <li>Позвоните нам, если остались вопросы</li>
@@ -156,6 +181,6 @@
         </a>
         <p>© 2022 Second Book. Все права защищены.</p>
       </section>
-    </footer>
+    </footer> -->
   </body>
 </html>
