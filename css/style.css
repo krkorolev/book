@@ -45,3 +45,57 @@ a {
 .materics-photo {
   position: relative;
 }
+
+.promo {
+    max-width: 668px;
+    margin-bottom: 90px;
+  }
+  .promo h1 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+    margin-bottom: 38px;
+  }
+  
+  /* .materics-photo {
+    position: absolute;
+    width: 1430px;
+    height: 871.32px;
+    left: 135px;
+    top: 0px;
+    z-index: 1;
+  } */
+  
+  .promo p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 80px;
+  }
+  
+  .promo-footer {
+    align-items: center;
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .promo-footer_buttom {
+    margin-right: 45px;
+    padding: 14px 46px;
+    background: #ecb942;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+  }
+  
+  .promo-footer_link {
+      margin-right: 10px;
+  }
+  
