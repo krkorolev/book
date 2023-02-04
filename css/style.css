@@ -161,6 +161,7 @@ line-height: 27px;
     /* position: relative; */
     margin-bottom: 45px;
   font-family: 'Montserrat';
+  margin-bottom: 55px;
 
 }
 
@@ -217,11 +218,63 @@ font-size: 18px;
 line-height: 22px;
 max-width: 426px;
 text-align: left;
-margin-top: 55px;
 }
 
 .paragraph__modification {
   margin-bottom: 55px;
+margin-top: 55px;
+
 }
 
 /* СЕКЦИЯ MISSION */
+
+.mission-block {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 45px;
+
+}
+
+
+
+.items {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+align-items: baseline
+}
+
+.mission-block__plans h2 {
+  font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+
+
+}
+
+.mission-block__plans {
+  margin-right: 37px;
+}
+
+.items__title {
+  font-size: 36px;
+line-height: 44px;
+margin-left: 17px;
+margin-bottom: 8px;
+}
+
+.items__text {
+  font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 60px;
+max-width: 500px;
+}
+
+.items p {
+  font-size: 24px;
+line-height: 36px;
+text-align: center;
+}
