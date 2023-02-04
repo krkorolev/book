@@ -288,3 +288,43 @@ justify-content: right; */
   margin-right: 60px;
 }
 
+/* СЕКЦИЯ FORMS */
+.forms {
+  position: relative;
+}
+.forms__decor {
+}
+
+.forms__text {
+  max-width: 557px;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  left: 5px;
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 96px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+
+
+}
+
+.forms__text h2 {
+  font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+margin-bottom: 15px;
+}
+
+.forms__text p {
+  font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 30px;
+}
+
+.forms__text a {
+  color: #000000;
+}
