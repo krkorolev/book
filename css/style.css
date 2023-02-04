@@ -96,9 +96,7 @@ a {
 
 .promo-footer_buttom__main {
   margin-right: 45px;
-
 }
-
 
 .promo-footer_link {
   margin-right: 10px;
@@ -111,7 +109,6 @@ a {
   gap: 60px;
   justify-content: flex-start;
   margin-bottom: 45px;
-
 }
 
 .about-row a {
@@ -126,15 +123,15 @@ a {
 }
 
 .about-row_block img {
-    margin-bottom: 19px;
-    height: 82px;
+  margin-bottom: 19px;
+  height: 82px;
 }
 
 .about-row_block p {
-    font-family: 'Poppins';
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .about-row_block h3 {
@@ -150,38 +147,35 @@ line-height: 27px;
 /* СЕКЦИЯ WORK */
 
 .work-info {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 96px;
-    position: relative;
-
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 96px;
+  position: relative;
 }
 
 .work {
-    /* position: relative; */
-    margin-bottom: 45px;
-  font-family: 'Montserrat';
+  /* position: relative; */
+  margin-bottom: 45px;
+  font-family: "Montserrat";
   margin-bottom: 55px;
-
 }
 
 .work-info__img {
   position: absolute;
   width: 814px;
-height: 723px;
-left: -126px;
-top: 32px;
-
+  height: 723px;
+  left: -126px;
+  top: 32px;
 }
 .work-info__text {
   /* display: block;
 text-align: right;
 justify-content: right; */
-right: 0px;
-    max-width: 485px;
-    right: 0px;
-    text-align: center;
-    padding-left: 60px;
+  right: 0px;
+  max-width: 485px;
+  right: 0px;
+  text-align: center;
+  padding-left: 60px;
 }
 
 .work-info__text h2 {
@@ -193,20 +187,19 @@ right: 0px;
 
 .work-info__text-paragraph {
   display: flex;
-align-items: center;
-gap: 24px;
-margin-bottom: 40px;
-/* white-space: normal; */
-max-width: 357px;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+  /* white-space: normal; */
+  max-width: 357px;
 }
 
 .work-info__text-paragraph img {
-width: 43px;
-height: 51px;
-
+  width: 43px;
+  height: 51px;
 }
 
-.work-info__text  {
+.work-info__text {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
@@ -214,16 +207,15 @@ height: 51px;
 
 .paragraph {
   font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-max-width: 426px;
-text-align: left;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 426px;
+  text-align: left;
 }
 
 .paragraph__modification {
   margin-bottom: 55px;
-margin-top: 55px;
-
+  margin-top: 55px;
 }
 
 /* СЕКЦИЯ MISSION */
@@ -232,26 +224,21 @@ margin-top: 55px;
   display: flex;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 45px;
-
 }
-
-
 
 .items {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  
-align-items: baseline
+
+  align-items: baseline;
 }
 
 .mission-block__plans h2 {
   font-weight: 400;
-font-size: 48px;
-line-height: 59px;
-text-align: center;
-
-
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
 }
 
 .mission-block__plans {
@@ -260,21 +247,44 @@ text-align: center;
 
 .items__title {
   font-size: 36px;
-line-height: 44px;
-margin-left: 17px;
-margin-bottom: 8px;
+  line-height: 44px;
+  margin-left: 17px;
+  margin-bottom: 8px;
 }
 
 .items__text {
   font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-margin-bottom: 60px;
-max-width: 500px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 60px;
+  max-width: 500px;
 }
 
 .items p {
   font-size: 24px;
-line-height: 36px;
-text-align: center;
+  line-height: 36px;
+  text-align: center;
 }
+
+/* СЕКЦИЯ pertners */
+.pertners {
+  margin-bottom: 45px;
+}
+
+.pertners h2 {
+  text-align: center;
+  margin: 74px 0 54px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.pertners__blocks {
+  display: flex;
+}
+
+.pertners__blocks img {
+  margin-right: 60px;
+}
+
