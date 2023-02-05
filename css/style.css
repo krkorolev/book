@@ -32,7 +32,7 @@ a {
   color: #1c1d23;
 }
 
-.logo {
+.logo-header {
   margin-right: 40px;
   padding: 20px 0 30px 0;
 }
@@ -269,6 +269,7 @@ justify-content: right; */
 /* СЕКЦИЯ pertners */
 .pertners {
   margin-bottom: 45px;
+  
 }
 
 .pertners h2 {
@@ -282,6 +283,8 @@ justify-content: right; */
 
 .pertners__blocks {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pertners__blocks img {
@@ -291,9 +294,9 @@ justify-content: right; */
 /* СЕКЦИЯ FORMS */
 .forms {
   position: relative;
+  margin-bottom: 45px;
 }
-.forms__decor {
-}
+
 
 .forms__text {
   max-width: 557px;
@@ -307,24 +310,82 @@ justify-content: right; */
   padding-bottom: 96px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-
-
 }
 
 .forms__text h2 {
   font-weight: 400;
-font-size: 48px;
-line-height: 59px;
-margin-bottom: 15px;
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 15px;
 }
 
 .forms__text p {
   font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 30px;
 }
 
 .forms__text a {
   color: #000000;
+}
+
+/* СЕКЦИЯ FOOTER   */
+.footer {
+margin-bottom: 64px;
+}
+
+.footer-contacts__block {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  margin-bottom: 45px;
+}
+
+.nunmber-phone__items {
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.nunmber-phone__items-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+
+.nunmber-phone__items-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social {
+  margin-right: 87px;
+}
+
+.social-list {
+  list-style: none;
+  text-align: center;
+}
+
+.social-icon {
+  display: flex;
+  gap: 8px;
+  margin-top: 27px;
+}
+
+.logotip {
+  display: block;
+  text-align: center;
+}
+
+.logo-footer {
+  margin-top: 70px;
+  margin-bottom: 52px;
+}
+
+.logotip-blocks p {
+  margin-top: 50px;
 }
