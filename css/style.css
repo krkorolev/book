@@ -4,18 +4,7 @@ body {
   background-image: url("/images/img.svg");
   background-repeat: no-repeat;
   background-position: 298px -22px;
-  background-size: 1430px 871px;
-}
-
-h2 {
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 59px;
-}
-
-.container {
-  max-width: 1130px;
-  margin: 0 auto;
+  background-size: 1452px 856px;
 }
 
 a {
@@ -23,8 +12,14 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 20px;
+  margin-bottom: 310px;
 }
 
 .navigation {
@@ -32,18 +27,18 @@ ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: 310px;
   padding-left: 56px;
+  gap: 40px;
 }
 
-.logo__header {
-  margin-right: 50px;
-  padding: 20px 0 30px 0;
+.logo {
+  display: flex;
   width: 231px;
 }
 
-.logo__text {
-  padding-bottom: 10px;
+.logo_header {
+  justify-content: flex-start;
+
 }
 
 .menu {
@@ -52,17 +47,19 @@ ul {
   letter-spacing: 0.03em;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
 }
 
 .menu__item:hover {
-  border-bottom: 2px solid #000000;
+  text-decoration: underline;
+  /* border-bottom: 2px solid #000000; */
   /* padding-top: 10px; */
-  /* background-image: url("/images/vector-nav.svg"); */
+  background-image: url("/images/vector-nav.svg");
 }
 
+/* СЕКЦИЯ  PROMO */
+
 .promo {
-  margin-bottom: 103px;
+  padding-bottom: 103px;
   position: relative;
 }
 
@@ -70,17 +67,15 @@ ul {
   font-weight: 400;
   font-size: 64px;
   line-height: 78px;
-  color: #000000;
-  position: relative;
   margin-bottom: 38px;
   max-width: 668px;
+  position: relative;
 }
 
 .promo__desk {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  margin-bottom: 80px;
 }
 
 .promo__title::after {
@@ -96,15 +91,16 @@ ul {
 
 .promo__footer {
   font-family: "Poppins";
-  align-items: center;
   display: flex;
-  font-style: normal;
+  align-items: center;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+  margin-top: 100px;
+  gap: 47px;
 }
 
-.buttom {
+.button {
   padding: 14px 46px;
   background: #ecb942;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
@@ -112,30 +108,31 @@ ul {
   font-size: 18px;
 }
 
-.buttom_margin {
-  margin-right: 45px;
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.promo__link {
-  margin-right: 10px;
-}
-.promo__arrow {
-  padding-top: 10px;
+.link__arrow {
+  width: 18px;
+  height: 18px;
 }
 
-.number-books {
+.promo__books {
   position: absolute;
   font-weight: 400;
   top: 282px;
-  right: 242px;
+  right: 230px;
 }
 
-.number-books h2 {
+.promo__books h2 {
+  font-weight: 400;
   font-size: 48px;
   line-height: 59px;
   position: relative;
 }
-.number-books h2::after {
+.promo__books h2::after {
   content: "";
   position: absolute;
   width: 96px;
@@ -147,7 +144,7 @@ ul {
   background-color: #ecb942;
 }
 
-.number-books p {
+.promo__books p {
   font-size: 16px;
   line-height: 20px;
 }
@@ -155,18 +152,48 @@ ul {
 /* СЕКЦИЯ ABOUT  */
 .about {
   margin-top: 45px;
-  margin-bottom: 94px;
+  margin-bottom: 45px;
 }
+
 .about-columns {
   display: flex;
-  justify-content: flex-start;
-  gap: 72px;
+  gap: 100px;
+  padding-bottom: 70px;
 }
 
 .about-columns__item {
-  align-items: center;
   text-align: center;
   position: relative;
+}
+
+.about-columns a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.about-columns__item h3 {
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 44px;
+  margin-bottom: 29px;
+  max-width: 357px;
+}
+
+.about-columns__item img {
+  margin-bottom: 19px;
+  height: 82px;
+}
+
+.about-columns__item p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about-columns__item-text {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .about-columns__item_background::after {
@@ -180,78 +207,51 @@ ul {
   z-index: -1;
 }
 
-.about-columns a {
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-.about-columns__item h3 {
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 44px;
-  margin-bottom: 29px;
-  max-width: 357px;
-}
-
-.about-columns__item img {
-  margin-bottom: 19px;
-  height: 82px;
-}
-
-.text {
-  font-family: "Poppins";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-}
-
-.text_padding-small {
-  padding-right: 7px;
-  padding-left: 7px;
-}
-
-.text_padding-big {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 /* СЕКЦИЯ WORK */
 
 .work {
   margin-bottom: 45px;
   font-family: "Montserrat";
   margin-bottom: 55px;
+  padding-top: 96px;
+  position: relative;
+}
+
+.work-info::after {
+  content: "";
+  background-image: url("/images/work/img.jpg");
+  position: absolute;
+  width: 814px;
+  height: 643px;
+  left: -60px;
+  top: 32px;
+  z-index: 3;
 }
 
 .work-info {
   display: flex;
   justify-content: flex-end;
-  padding-top: 96px;
-  position: relative;
 }
 
-.work-info__img {
-  position: absolute;
-  width: 814px;
-  height: 643px;
-  left: -164px;
-  top: 32px;
-}
 .work-info__text {
-  max-width: 485px;
-  right: 0px;
-  text-align: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.title_work {
+.work-info__title {
   margin-bottom: 42px;
-  padding-left: 26px;
+  /* padding-left: 26px; */
+}
+
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
 }
 
 .title_work::after {
   content: "";
-  position: absolute;
   width: 243px;
   height: 32px;
   background-image: url("/images/back/Vector.svg");
@@ -261,18 +261,31 @@ ul {
 }
 
 .work-info__lead {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 24px;
   line-height: 29px;
-  padding-left: 57px;
   margin-bottom: 40px;
+  position: relative;
 }
-.work-info__lead p {
-  max-width: 357px;
-  padding-right: 50px;
+
+.work-info__lead-trew::before {
+  content: "";
+  position: absolute;
+  background-image: url("/images/work/trew.svg");
+  width: 43px;
+  height: 50px;
+  top: 0px;
+  left: -71px;
+}
+/* можно ли здесь обойтись без дублтрования кода? */
+.work-info__lead-book::after {
+  content: "";
+  position: absolute;
+  background-image: url("/images/work/book.svg");
+  width: 49px;
+  height: 37px;
+  top: 23px;
+  left: -71px;
 }
 
 .work-info__lead img {
@@ -280,63 +293,69 @@ ul {
   height: 51px;
 }
 
-.text_left {
+.desc {
   font-family: "Montserrat";
-  text-align: left;
-  margin-bottom: 70px;
-  margin-top: 55px;
-  padding-left: 57px;
-  padding-right: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.work-info__desc {
+  max-width: 426px;
+  margin-top: 25px;
+}
+.work-info__button {
+  margin: 70px 114px;
 }
 
 /* СЕКЦИЯ MISSION */
+
 .mission {
-  margin-top: 120px;
 }
 .mission-block {
   display: flex;
-  margin-bottom: 45px;
+  gap: 65px;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .mission-plan {
-  margin-right: 65px;
+  max-width: 454px;
 }
 
-.title_mission {
+.title__mission {
   text-align: center;
   margin-bottom: 7px;
   position: relative;
 }
 
-.title_mission::after {
+.title__mission::after {
   content: "";
   position: absolute;
   background-image: url("/images/mission/vector.png");
-  /* width: 243px; */
+  width: 243px;
   height: 32px;
   top: 26px;
   left: 59px;
   z-index: -1;
 }
 
-.mission-plan__info {
+.mission-plan__desc {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  max-width: 647px;
 }
 
 .mission-items {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  align-items: baseline;
+  display: block;
+  margin-bottom: 45px;
+  /* max-width: 270px; */
 }
 
 .mission-items__title {
   font-size: 36px;
+  font-weight: 400;
   line-height: 44px;
   margin-bottom: 8px;
+  margin-left: 21px;
   position: relative;
 }
 
@@ -348,44 +367,59 @@ ul {
   border-radius: 50%;
   z-index: -1;
   top: -6px;
+  right: 215px;
 }
 .mission-items__title_green::after {
   background-color: #97bc59;
-  right: 157px;
 }
+
+.mission-items__title_green::before {
+  content: "";
+  background-image: url("/images/mission/40.png");
+  width: 405px;
+  height: 16px;
+  position: absolute;
+  top: 40px;
+  left: 185px;
+}
+
 
 .mission-items__title_yellow::after {
   background-color: #ecb942;
-  right: 186px;
+}
+
+.mission-items__title_yellow::before {
+  content: "";
+  background-image: url("/images/mission/50.png");
+  width: 405px;
+  height: 16px;
+  position: absolute;
+  top: 40px;
+  left: 185px;
 }
 
 .mission-items__title_blue::after {
   background-color: #b0cef1;
-  right: 179px;
 }
 
-.mission-items__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 60px;
-  max-width: 500px;
-  padding-right: 5px;
-}
-
-.mission-items p {
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
+.mission-items__title_blue::before {
+  content: "";
+  background-image: url("/images/mission/30.png");
+  width: 405px;
+  height: 16px;
+  position: absolute;
+  top: 40px;
+  left: 185px;
 }
 
 /* СЕКЦИЯ pertners */
+
 .pertners {
   margin-bottom: 92px;
   position: relative;
 }
 
-.pertners h2 {
+.pertners__title {
   text-align: center;
   margin: 74px 0 54px 0;
 }
@@ -415,103 +449,71 @@ ul {
   margin-bottom: 45px;
   position: relative;
 }
-
-.group__img {
-  position: absolute;
-}
-
-.group-img_yellow-1 {
-  top: -2px;
-  left: -60px;
-}
-
-.group-img_yellow-2 {
-  top: 195px;
-  right: -71px;
-}
-
-.group-img_green-1 {
-  top: 104px;
-  left: -46px;
-  opacity: 0.8;
-}
-
-.group-img_green-2 {
-  top: 299px;
-  right: -84px;
-  opacity: 0.8;
-}
-
 .forms::after {
   content: "";
-  background-image: url("/images/forms/Group2.svg") 0px 1262px;
-  width: 363px;
-  height: 250px;
-  z-index: -1;
-}
-
-.forms__inner {
-  display: flex;
-  align-items: center;
+  background-image: url("/images/forms/decor.svg");
+  width: 1490px;
+  height: 541px;
+  position: absolute;
+  top: 0px;
+  right: -95px;
+  z-index: -3;
 }
 
 .forms__info {
   text-align: center;
-  display: inline-block;
-  height: 417px;
-  background-image: url("/images/forms/decor.png");
-  opacity: 0.9;
+  height: 415px;
+  background-image: url("/images/forms/decor.png"), url("/images/forms/img.png");
   color: #fff;
 }
+/* тут не знаю, как задать картинке прозрачность, могу чере opacity, но опасити применяется
+всему блоку forms__info */
 
-.forms__info h2 {
+.forms__title {
   padding-top: 40px;
   padding-bottom: 15px;
   max-width: 560px;
   display: inline-block;
 }
 
-.forms__info p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  padding-bottom: 54px;
-  padding-left: 90px;
-  padding-right: 90px;
+.forms__desc {
+  padding: 0px 90px 54px;
 }
 
-.forms__info a {
+.button_forms {
   color: #000000;
 }
 
 /* СЕКЦИЯ FOOTER   */
-.footer {
-  margin-bottom: 64px;
-}
 
 .contacts {
-  margin-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 35px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
+}
+.nunmber-phone {
+text-align: center;
 }
 
-.nunmber-phone__items {
-  list-style: none;
-  justify-content: flex-start;
+.nunmber-phone__text{
+padding-bottom: 35px;
 }
-
-.nunmber-phone__items-title {
-  padding-bottom: 15px;
+.nunmber-phone__item {
+  position: relative;
 }
-
-.nunmber-phone__items-number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+.nunmber-phone__item::before {
+  content: "";
+  position: absolute;
+  background-image: url("/images/footer/social.svg");
+  width: 44px;
+  height: 45px;
+  top: -13px;
+  left: -55px;
 }
 
 .social {
@@ -526,7 +528,7 @@ ul {
 .social-list_icon {
   display: flex;
   gap: 8px;
-  margin-top: 27px;
+  padding-top: 27px;
 }
 
 .copirater {
@@ -534,13 +536,14 @@ ul {
   text-align: center;
 }
 
-.logo_footer {
-  margin-top: 70px;
-  margin-bottom: 52px;
+.copirater__items {
+  padding: 67px 0px;
 }
+
 
 .copirater__items p {
   font-size: 14px;
   line-height: 17px;
-  margin-top: 50px;
+  margin-top: 48px;
+
 }
